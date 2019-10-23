@@ -11,9 +11,7 @@ setup(
     url="https://github.com/hankso/gpio4",
     packages=find_packages(),
     include_package_data = True,
-    install_requires = [
-        'gpiozero',
-    ]
+    install_requires = ['gpiozero',]
     classifiers=[
         "Development Status :: 1 - Alpha",
         "License :: Apache License 2.0",
